@@ -1,0 +1,24 @@
+*{
+    margin: 0pt;
+    padding: 0pt;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000pt;
+    width: 100%;
+}
+
+.logo_in , .logo_be , .logo_vk{
+    width: 25pt;
+}
+
+header > .container{
+    
+}

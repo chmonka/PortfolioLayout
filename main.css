@@ -1,0 +1,17 @@
+.main-portfolio > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+
+.block-text-portfolio{
+    width: 450pt;
+    height: 120pt;
+}
+
+.profile-portfolio{
+    display: flex;
+    flex-direction: row;
+}

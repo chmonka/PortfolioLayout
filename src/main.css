@@ -1,0 +1,286 @@
+.main-portfolio>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 525pt;
+}
+
+.title-text-portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.profile-portfolio {
+    height: 250pt;
+    padding: 0pt 115pt;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-portfolio {
+    width: 230.25pt;
+    height: 47.25pt;
+    border-radius: 2pt;
+    border: 0.5pt solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0pt 4.5pt 15pt 0pt rgba(63, 142, 0, 0.50);
+    color: #FFFFFF;
+    font-family: "IBM Plex Mono";
+    font-size: 12pt;
+}
+
+.title-portfolio {
+    color: #FFFFFF;
+    font-size: 33pt;
+    font-family: "Raleway";
+    margin-bottom: 20pt;
+}
+
+.text-portfolio {
+    color: #9C9C9C;
+    font-size: 11pt;
+    font-family: "IBM Plex Mono";
+    margin-bottom: 20pt;
+}
+
+.block-text-img {
+    max-width: 312pt;
+    border-radius: 50%;
+}
+
+.company-portfolio {
+    width: 100%;
+    padding: 60pt 115pt 0pt 115pt;
+}
+
+.company-icons-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-icons-portfolio img {
+    width: 120pt;
+    border-radius: 3pt;
+    border: 1pt solid #1B1B1B;
+}
+
+.subject-researches {
+    background-color: #FFFFFF;
+    padding-top: 60pt;
+}
+
+.subject-researches>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1100pt;
+}
+
+.works-title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 672.75pt;
+}
+
+.works-title {
+    font-family: "Raleway";
+    font-size: 25.5pt;
+}
+
+.works-text {
+    text-align: center;
+    font-size: 10.5pt;
+    font-family: "IBM Plex Mono";
+}
+
+.work-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50pt;
+    width: 770pt;
+    justify-content: space-between;
+}
+
+.work-section-reverse {
+    flex-direction: row-reverse;
+}
+
+.work-section-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-section img {
+    height: 260pt;
+
+}
+
+.figure-fintech {
+    display: flex;
+    height: 18pt;
+    justify-content: center;
+    align-items: center;
+    width: 50pt;
+    border-radius: 20pt;
+    color: #FFA217;
+    background-color: #FFF6E9;
+}
+
+.figure-edtech {
+    display: flex;
+    height: 18pt;
+    justify-content: center;
+    align-items: center;
+    width: 50pt;
+    border-radius: 20pt;
+    color: #000AFF;
+    background-color: #D0E6FF;
+}
+
+.figure-pharma {
+    display: flex;
+    height: 18pt;
+    justify-content: center;
+    align-items: center;
+    width: 50pt;
+    border-radius: 20pt;
+    color: #2AB090;
+    background-color: #E0FFF8;
+}
+
+.work-section h1 {
+    font-size: 18pt;
+    font-family: "Raleway";
+    margin-top: 20pt;
+}
+
+
+.work-section p {
+    font-size: 12pt;
+    font-family: "IBM Plex Mono";
+    margin-top: 10pt;
+    color: #9C9C9C;
+}
+
+.work-button-fintech {
+    width: 142pt;
+    height: 28.5pt;
+    border-radius: 4pt;
+    margin-top: 20pt;
+    font-family: "Raleway";
+    color: white;
+    background: #FFA217;
+    box-shadow: 0pt 8pt 30pt 0pt rgba(42, 176, 144, 0.10);
+    border: none;
+    cursor: pointer;
+}
+
+.work-button-fintech:hover {
+    background: rgba(0,0,0,0);
+    color: #FFA217;
+    box-shadow: inset 0 0 0 3px #FFA217;
+}
+
+.work-button-edtech {
+    width: 142pt;
+    height: 28.5pt;
+    border-radius: 4pt;
+    margin-top: 20pt;
+    font-family: "Raleway";
+    color: white;
+    background: #000AFF;
+    ;
+    box-shadow: 0pt 8pt 30pt 0pt rgba(42, 176, 144, 0.10);
+    border: none;
+    cursor: pointer;
+}
+
+.work-button-edtech:hover {
+    background: rgba(0,0,0,0);
+    color: #000AFF;
+    box-shadow: inset 0 0 0 3px #000AFF;
+}
+
+.work-button-pharma {
+    width: 142pt;
+    height: 28.5pt;
+    border-radius: 4pt;
+    margin-top: 20pt;
+    font-family: "Raleway";
+    color: white;
+    background: #2AB090;
+    box-shadow: 0pt 8pt 30pt 0pt rgba(42, 176, 144, 0.10);
+    border: none;
+    cursor: pointer;
+}
+
+.work-button-pharma:hover {
+    background: rgba(0,0,0,0);
+    color: #2AB090;
+    box-shadow: inset 0 0 0 3px #2AB090;
+}
+
+
+.testimonials > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500pt;
+}
+
+.user-frame{
+    position: relative;
+    width: 333pt;
+    height: 159pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-frame::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 6px;
+    padding: 1px;
+    background: linear-gradient(
+      90deg,
+      white 0%,
+      rgba(0, 0, 0, 0)100%
+    );
+    pointer-events: none;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.user-frame h1{
+    color:white
+}
+
+.testimonials-users-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-frame p{
+    color:white;
+    font-size: 11pt;
+    padding: 0pt 15pt;
+}
+
+

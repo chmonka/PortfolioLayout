@@ -274,6 +274,8 @@
 .testimonials-users-frame{
     display: flex;
     flex-direction: row;
+    width: 800pt;
+    padding-bottom: 50pt;
     justify-content: space-between;
 }
 

@@ -1,17 +1,62 @@
+
+
+
 .main-portfolio > .container{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
-    background-color: aqua;
+    height:525pt;
 }
 
-.block-text-portfolio{
-    width: 450pt;
-    height: 120pt;
+.title-text-portfolio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .profile-portfolio{
+    height: 250pt;
+    padding:0pt 115pt ;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-portfolio{
+    width: 230.25pt;
+    height: 47.25pt;
+    border-radius: 2pt;
+    border: 0.5pt solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0pt 4.5pt 15pt 0pt rgba(63, 142, 0, 0.50);
+    color:#FFFFFF;
+    font-family:"IBM Plex Mono" ;
+    font-size: 12pt;
+}
+
+.title-portfolio{
+    color: #FFFFFF;
+    font-size: 33pt;
+    font-family: "Raleway";
+    margin-bottom: 20pt;
+}
+
+.text-portfolio{
+    color:#9C9C9C;
+    font-size: 11pt;
+    font-family: "IBM Plex Mono";
+    margin-bottom: 20pt;
+}
+
+.block-text-img{
+    max-width: 312pt;
+    border-radius:50% ;
+}
+
+.company-portfolio{
+    padding-top: 40pt;
 }

@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Raleway:wght@800&display=swap');
+
+
 *{
     margin: 0pt;
     padding: 0pt;
     box-sizing: border-box;
 }
 
+
+
 body{
     background-color: #080808;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 .container {
@@ -14,8 +24,9 @@ body{
     width: 100%;
 }
 
-.logo-in , .logo-be , .logo-vk{
+.logo-social{
     width: 25pt;
+    margin-left: 12pt;
 }
 
 header > .container{
@@ -24,22 +35,32 @@ header > .container{
     justify-content: center;
     width: 100%;
     background-color:#1B1B1B;
+    justify-content: space-around;
     height: 50pt;
     border-radius: 0pt 0pt 8pt 8pt;
+    padding: 0pt 100pt;
+}
+
+.menu-items-header li a {
+    font-family: "IBM Plex Mono";
+    cursor: pointer;
+    color: #9C9C9C;
+
 }
 
 
-.list-items{
+.menu-items-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    width: 500pt;
-    color: #9C9C9C;
+    width: 650pt;
+
 }
 
 .img-header{
-    margin-left:130pt ;
+    display: flex;
+    align-items: center;
 }
 

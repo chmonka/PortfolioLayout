@@ -186,7 +186,7 @@
 }
 
 .work-button-fintech:hover {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     color: #FFA217;
     box-shadow: inset 0 0 0 3px #FFA217;
 }
@@ -206,7 +206,7 @@
 }
 
 .work-button-edtech:hover {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     color: #000AFF;
     box-shadow: inset 0 0 0 3px #000AFF;
 }
@@ -225,22 +225,22 @@
 }
 
 .work-button-pharma:hover {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     color: #2AB090;
     box-shadow: inset 0 0 0 3px #2AB090;
 }
 
 
-.testimonials > .container{
+.testimonials>.container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 500pt;
+    height: 600pt;
 }
 
-.user-frame{
+.user-frame {
     position: relative;
     width: 333pt;
     height: 159pt;
@@ -250,28 +250,28 @@
     align-items: center;
 }
 
-.user-frame::before{
+.user-frame::before {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 6px;
     padding: 1px;
-    background: linear-gradient(
-      90deg,
-      white 0%,
-      rgba(0, 0, 0, 0)100%
-    );
+    background: linear-gradient(90deg,
+            white 0%,
+            rgba(0, 0, 0, 0)100%);
     pointer-events: none;
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
 
-.user-frame h1{
-    color:white
+.user-frame h1 {
+    color: white;
+    font-size: 14pt;
+    font-family: "Raleway";
 }
 
-.testimonials-users-frame{
+.testimonials-users-frame {
     display: flex;
     flex-direction: row;
     width: 800pt;
@@ -279,10 +279,23 @@
     justify-content: space-between;
 }
 
-.user-frame p{
-    color:white;
-    font-size: 11pt;
-    padding: 0pt 15pt;
+.user-frame p {
+    color: white;
+    font-size: 12pt;
+    font-family: "IBM Plex Mono";
 }
 
+.testimonials-title {
+    color: #FFF;
+    font-size: 26pt;
+    font-family: "Raleway";
+    padding: 20pt 0pt 20pt 0pt;
+}
 
+.testimonials-text {
+    color: #9C9C9C;
+    font-size: 11pt;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    padding: 0pt 0pt 20pt 0pt;
+}

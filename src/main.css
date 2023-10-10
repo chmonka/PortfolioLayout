@@ -100,6 +100,8 @@
     text-align: center;
     font-size: 10.5pt;
     font-family: "IBM Plex Mono";
+    color: #9C9C9C;
+    margin-top: 15pt;
 }
 
 .work-section {
@@ -231,7 +233,7 @@
 }
 
 
-.testimonials>.container {
+.testimonials-section>.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,12 +244,13 @@
 
 .user-frame {
     position: relative;
-    width: 333pt;
-    height: 159pt;
+    width: 360pt;
+    height: 160pt;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0pt 20pt;
 }
 
 .user-frame::before {
@@ -274,8 +277,8 @@
 .testimonials-users-frame {
     display: flex;
     flex-direction: row;
-    width: 800pt;
-    padding-bottom: 50pt;
+    width: 760pt;
+    padding: 30pt 0pt;
     justify-content: space-between;
 }
 
@@ -298,4 +301,79 @@
     text-align: center;
     font-family: "IBM Plex Mono";
     padding: 0pt 0pt 20pt 0pt;
+}
+
+.testimonials-users-photos{
+    display:flex ;
+    flex-direction: row;
+    align-items:center ;
+    padding-top: 15pt;
+
+}
+
+.testimonials-users-photos img{
+    border-radius: 50%;
+    margin-right: 20pt;
+}
+
+.reset-work-section{
+    background-color: white;
+}
+
+.reset-work-section > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600pt;
+}
+
+.reset-work-title{
+    font-size: 26pt;    
+    font-family: "Raleway";
+    margin-top: 20pt;
+}
+
+.reset-work-text {
+    color: #9C9C9C;
+    font-size: 11pt;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    padding: 20pt 0pt 20pt 0pt;
+}
+
+.ready-made-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 690pt;
+}
+
+.ready-made-projects p {
+    text-align: none;
+    color: #9C9C9C;
+    font-size: 11pt;
+    font-family: "IBM Plex Mono";
+    margin-bottom: 20pt;
+}
+
+.ready-made-projects button{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.30);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100pt;
+    height: 30pt;
+}
+
+.ready-made-projects h2 {
+    font-size: 18pt;
+    font-family: "Raleway";
+    margin:20pt 0pt 20pt 0pt ;
 }

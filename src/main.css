@@ -71,7 +71,6 @@
 }
 
 .subject-researches {
-    background-color: #FFFFFF;
     padding-top: 60pt;
 }
 
@@ -362,18 +361,33 @@
 .ready-made-projects button{
     display: flex;
     border-radius: 4px;
-    border: 1px solid #62BA1B;
+    border: 1pt solid #62BA1B;
     background: #3F8E00;
-    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.30);
+    box-shadow: 0pt 8pt 30pt 0pt rgba(63, 142, 0, 0.30);
     align-items: center;
     justify-content: center;
     color: white;
     width: 100pt;
     height: 30pt;
+    cursor: pointer;
+}
+.ready-made-projects button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #3F8E00;
+    box-shadow: inset 0 0 0 1pt #62BA1B;
 }
 
 .ready-made-projects h2 {
     font-size: 18pt;
     font-family: "Raleway";
     margin:20pt 0pt 20pt 0pt ;
+}
+
+.get-contacs-section > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600pt;
 }

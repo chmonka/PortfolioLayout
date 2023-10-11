@@ -80,15 +80,13 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-
-
+    padding-bottom: 40pt;
 }
 
 .works-title-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 672.75pt;
 }
 
 .works-title {
@@ -454,8 +452,9 @@
 }
 
 .contacs-input textarea{
-    height: 120pT;
+    height: 120pt;
     resize: none;
+    font-family: "IBM Plex Mono";
     border-radius: 4pt;
     padding: 10pt 0pt 0pt 10pt;
 }

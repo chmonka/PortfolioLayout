@@ -15,7 +15,6 @@
 }
 
 .profile-portfolio {
-    height: 250pt;
     padding: 0pt 115pt;
     width: 100%;
     display: flex;
@@ -81,7 +80,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 1100pt;
+
 
 }
 

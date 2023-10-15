@@ -1,0 +1,38 @@
+@media (max-width:1200px) {
+    header>.container {
+        padding: 0pt 40pt;
+    }
+}
+
+@media (max-width:1050px) {
+    header>.container {
+        padding: 0pt 10pt;
+    }
+    .menu-items-header {
+        gap: 34pt;
+    }
+    .menu-items-header li a {
+        font-family: "IBM Plex Mono";
+        cursor: pointer;
+        color: #9C9C9C;
+    }
+}
+
+@media (max-width:840px) {
+    .menu-items-header li a {
+        font-family: "IBM Plex Mono";
+        cursor: pointer;
+        color: #9C9C9C;
+        font-size: 8pt;
+    }
+}
+
+
+@media (max-width:720px) {
+    .menu-items-header li a {
+        font-family: "IBM Plex Mono";
+        cursor: pointer;
+        color: #9C9C9C;
+        font-size: 8pt;
+    }
+}

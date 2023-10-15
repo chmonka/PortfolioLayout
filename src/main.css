@@ -239,7 +239,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 600pt;
+    padding: 60pt 0pt;
 }
 
 .user-frame {
@@ -277,9 +277,11 @@
 .testimonials-users-frame {
     display: flex;
     flex-direction: row;
-    width: 760pt;
-    padding: 30pt 0pt;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap:20pt;
+    row-gap: 20pt;
+
 }
 
 .user-frame p {

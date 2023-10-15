@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 525pt;
+    margin-top: 40pt;
 }
 
 .title-text-portfolio {
@@ -15,7 +15,6 @@
 }
 
 .profile-portfolio {
-    height: 250pt;
     padding: 0pt 115pt;
     width: 100%;
     display: flex;
@@ -50,7 +49,7 @@
 }
 
 .block-text-img {
-    max-width: 312pt;
+
     border-radius: 50%;
 }
 
@@ -65,7 +64,7 @@
 }
 
 .company-icons-portfolio img {
-    width: 120pt;
+    width: 100pt;
     border-radius: 3pt;
     border: 1pt solid #1B1B1B;
 }
@@ -81,15 +80,13 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 1100pt;
-
 }
 
 .works-title-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 672.75pt;
+
 }
 
 .works-title {
@@ -109,8 +106,8 @@
     display: flex;
     flex-direction: row;
     padding-top: 50pt;
-    width: 770pt;
     justify-content: space-between;
+
 }
 
 .work-section-reverse {
@@ -123,8 +120,14 @@
     justify-content: center;
 }
 
-.work-section img {
-    height: 260pt;
+.img-work-section {
+    height: 240pt;
+    margin-left: 20pt;
+}
+
+.img-work-section-margin-lest {
+    margin-right: 20pt;
+    height: 240pt;
 }
 
 .figure-fintech {
@@ -279,7 +282,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap:20pt;
+    column-gap: 20pt;
     row-gap: 20pt;
 
 }

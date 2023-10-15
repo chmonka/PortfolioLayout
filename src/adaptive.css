@@ -6,7 +6,7 @@
 
 @media (max-width:1050px) {
     header>.container {
-        padding: 0pt 10pt;
+        padding: 0pt 40pt;
     }
     .menu-items-header {
         gap: 34pt;
@@ -16,6 +16,45 @@
         cursor: pointer;
         color: #9C9C9C;
     }
+    .logo-social{
+        width: 20pt;
+    }
+    .profile-portfolio{
+        flex-direction: column-reverse;
+    }
+    .title-text-portfolio{
+        align-items: center;
+    }
+
+    .title-text-portfolio .text-portfolio{
+        text-align: center;
+    }
+    .company-icons-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10pt;
+    }
+    .company-portfolio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: none;
+    }
+    .title-portfolio {
+        color: #FFFFFF;
+        font-size:25pt;
+        font-family: "Raleway";
+        margin-bottom: 20pt;
+    }
+}
+
+@media (max-width:1050px) {
+    header>.container {
+        padding: 0pt 10pt;
+    }
+
 }
 
 @media (max-width:840px) {
@@ -24,6 +63,9 @@
         cursor: pointer;
         color: #9C9C9C;
         font-size: 8pt;
+    }
+    .logo-social{
+        width: 15pt;
     }
 }
 
@@ -34,5 +76,15 @@
         cursor: pointer;
         color: #9C9C9C;
         font-size: 8pt;
+    }
+}
+
+
+@media (max-width:650px) {
+    .menu-items-header li a {
+        font-family: "IBM Plex Mono";
+        cursor: pointer;
+        color: #9C9C9C;
+        font-size: 6pt;
     }
 }

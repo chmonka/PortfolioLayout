@@ -54,7 +54,33 @@
     header>.container {
         padding: 0pt 10pt;
     }
+    .work-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 50pt;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-work-section {
+        height: 240pt;
+        margin-left: 0pt;
+    }
+    
+    .img-work-section-margin-left {
+        margin-left: 0pt;
+        height: 240pt;
+    }
 
+    .work-section-desc{
+        margin-top: 20pt;
+    }
+    .ready-made-projects div{
+        padding-bottom: 20pt;
+    }
+    
+    .ready-made-projects img{
+        width: 100%;
+    }
 }
 
 @media (max-width:840px) {
@@ -86,5 +112,23 @@
         cursor: pointer;
         color: #9C9C9C;
         font-size: 6pt;
+    }
+    .img-work-section {
+        height: 100%;
+        width: 100%;
+        margin-left: 0pt;
+    }
+    
+    .img-work-section-margin-left {
+        margin-right: 0pt;
+        height: 100%;
+        width: 100%;
+    }
+
+    .block-text-img{
+        width: 100%;
+    }
+    .user-frame{
+
     }
 }

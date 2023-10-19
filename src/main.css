@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 40pt;
+    padding: 60pt 0pt;
 }
 
 .title-text-portfolio {
@@ -15,7 +15,7 @@
 }
 
 .profile-portfolio {
-    padding: 0pt 115pt;
+    padding: 0pt 100pt;
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
 
 .company-portfolio {
     width: 100%;
-    padding: 60pt 115pt 0pt 115pt;
+    padding: 60pt 100pt 0pt 100pt;
 }
 
 .company-icons-portfolio {

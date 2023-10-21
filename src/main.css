@@ -1,3 +1,4 @@
+/* First-slide-portfoli */
 .main-portfolio>.container {
     display: flex;
     align-items: center;
@@ -73,6 +74,7 @@
     background-color: white;
 }
 
+/* Second-slide-Case-Studies */
 .subject-researches>.container {
     display: flex;
     align-items: center;
@@ -202,7 +204,6 @@
     font-family: "Raleway";
     color: white;
     background: #000AFF;
-    ;
     box-shadow: 0pt 8pt 30pt 0pt rgba(42, 176, 144, 0.10);
     border: none;
     cursor: pointer;
@@ -233,7 +234,7 @@
     box-shadow: inset 0 0 0 3px #2AB090;
 }
 
-
+/* Third-slaid-Testimonials */
 .testimonials-section>.container {
     display: flex;
     align-items: center;
@@ -283,7 +284,6 @@
     justify-content: center;
     column-gap: 20pt;
     row-gap: 20pt;
-
 }
 
 .user-frame p {
@@ -323,6 +323,7 @@
     background-color: white;
 }
 
+/* Fourth-slide-Reset-Work */
 .reset-work-section>.container {
     display: flex;
     align-items: center;
@@ -352,7 +353,6 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 20pt;
-
 }
 
 .ready-made-projects p {
@@ -389,6 +389,7 @@
     margin: 20pt 0pt 20pt 0pt;
 }
 
+/* fifth-slide-get-in-touch */
 .get-contacs-section>.container {
     display: flex;
     align-items: center;
@@ -429,7 +430,7 @@
     font-size: 11pt;
     font-family: "IBM Plex Mono";
     margin-bottom: 20pt;
-    
+
 }
 
 .contacs-input input {

@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Raleway:wght@800&display=swap');
 
-
 * {
     margin: 0pt;
     padding: 0pt;
     box-sizing: border-box;
 }
 
-
-
 body {
     background-color: #080808;
-    ;
 }
 
 a {
     text-decoration: none;
-
 }
 
 .container {
